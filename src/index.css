@@ -1,13 +1,70 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap');
+@import url("https://fonts.cdnfonts.com/css/automata");
+
+/* src/index.css */
+@font-face {
+    font-family: 'Automata'; /* Name-ai simple-ah 'Automata' nu vechukonga */
+    font-style: normal;
+    font-weight: normal;
+    /* src folder-kulla assets/fonts iruntha intha path correct */
+    src: url('../public/fonts/AUTOMATA.woff') format('woff');
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Intha class thaan unga React component-la link aaganum */
+.font-automata {
+    font-family: 'Automata', sans-serif !important;
+}
+
+@layer base {
+  body {
+    margin: 0;
+    font-family: 'EB Garamond', serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #000000;
+    color: #ffffff;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
+  }
+
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+
+  * {
+    scroll-behavior: smooth;
+  }
+  @keyframes tunnel {
+  0% { transform: translateX(-50px); opacity: 0.4; }
+  100% { transform: translateX(50px); opacity: 0.8; }
+}
+
+.tunnel {
+  animation: tunnel 4s ease-in-out infinite alternate;
+}
+@keyframes gradientShift {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  50% {
+    filter: hue-rotate(25deg);
+  }
+  100% {
+    filter: hue-rotate(0deg);
+  }
+}
+
+.animate-gradient {
+  animation: gradientShift 6s ease-in-out infinite;
+}
+
 }
