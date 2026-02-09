@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/FKodesolution/static/css/main.0b9435af.css",
+    "main.js": "/FKodesolution/static/js/main.04fa0c86.js",
+    "static/js/453.117b0875.chunk.js": "/FKodesolution/static/js/453.117b0875.chunk.js",
+    "static/media/client1.JPG": "/FKodesolution/static/media/client1.85c64e53480927b4b240.JPG",
+    "static/media/Lokesh.JPG": "/FKodesolution/static/media/Lokesh.c7a54ffffb52b6f0ab63.JPG",
+    "static/media/image.png": "/FKodesolution/static/media/image.e98d30030533820bf5fe.png",
+    "static/media/starup.png": "/FKodesolution/static/media/starup.d9e1fd01b04a5190bb3b.png",
+    "static/media/client3.png": "/FKodesolution/static/media/client3.6ad72f086988e92a6539.png",
+    "static/media/client2.png": "/FKodesolution/static/media/client2.3fa5b6179d5dc6e97e3b.png",
+    "static/media/branding.jpg": "/FKodesolution/static/media/branding.b15d5963ac430a953dd4.jpg",
+    "static/media/clinic.jpg": "/FKodesolution/static/media/clinic.0fcb1ee83b089b619685.jpg",
+    "static/media/retail.jpg": "/FKodesolution/static/media/retail.146fb92e1588795c55d7.jpg",
+    "static/media/digital.jpg": "/FKodesolution/static/media/digital.3d2c7c4bf3520b08cf50.jpg",
+    "static/media/Education.jpg": "/FKodesolution/static/media/Education.0ab5e9608089b9b179a4.jpg",
+    "static/media/gift.jpg": "/FKodesolution/static/media/gift.e62db5c677819c168b72.jpg",
+    "static/media/fkode.jpg": "/FKodesolution/static/media/fkode.7bdd4353019895d4cd13.jpg",
+    "static/media/Home.jpg": "/FKodesolution/static/media/Home.bbc382104a10b8d08f47.jpg",
+    "static/media/Background3.png": "/FKodesolution/static/media/Background3.86d77ebdc5922acacd38.png",
+    "static/media/service-img.jpg": "/FKodesolution/static/media/service-img.83e4a21c56a38dafa186.jpg",
+    "static/media/software.jpg": "/FKodesolution/static/media/software.6b0d07a5afceb8500a11.jpg",
+    "static/media/E-Commerce.avif": "/FKodesolution/static/media/E-Commerce.508a3ad03b873c0730c2.avif",
+    "static/media/registration.jpg": "/FKodesolution/static/media/registration.6f97c13318977e6934d7.jpg",
+    "static/media/AUTOMATA.woff": "/FKodesolution/static/media/AUTOMATA.60352bd4ccf13e83b6ca.woff",
+    "index.html": "/FKodesolution/index.html",
+    "main.0b9435af.css.map": "/FKodesolution/static/css/main.0b9435af.css.map",
+    "main.04fa0c86.js.map": "/FKodesolution/static/js/main.04fa0c86.js.map",
+    "453.117b0875.chunk.js.map": "/FKodesolution/static/js/453.117b0875.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0b9435af.css",
+    "static/js/main.04fa0c86.js"
+  ]
+}
