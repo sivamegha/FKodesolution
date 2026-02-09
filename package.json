@@ -1,10 +1,5 @@
 {
-
-
-
-    "homepage": "https://sivamegha.github.io/FKodesolution",
-
-
+  "homepage": "https://sivamegha.github.io/FKodesolution",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -28,7 +23,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-<<<<<<< HEAD
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -36,17 +30,6 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build -f"
   },
-
-
-=======
-  "start": "react-scripts start",
-  "build": "react-scripts build",
-  "test": "react-scripts test",
-  "eject": "react-scripts eject",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build -f"
-},
->>>>>>> c8d37aca1af75755e9ba80dc6d9569c0c6feed04
   "eslintConfig": {
     "extends": [
       "react-app",
